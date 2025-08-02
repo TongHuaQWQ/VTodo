@@ -1,12 +1,14 @@
 {
   "name": "vtodo-app",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "pnpm build && wrangler pages deploy dist",
+    "dev:wrangler": "wrangler pages dev dist --port 8788"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
@@ -18,10 +20,12 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250802.0",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3",
     "vite": "^7.0.4",
-    "vue-tsc": "^2.2.12"
+    "vue-tsc": "^2.2.12",
+    "wrangler": "^4.27.0"
   }
 }

@@ -2,7 +2,7 @@
 import { ref, onMounted } from "vue";
 
 const showWelcomeModal = ref(false);
-const currentVersion = "0.1.0-dev";
+const currentVersion = "0.1.1-dev";
 const lastVersion = ref<string | null>(null);
 
 // 检查是否首次访问
