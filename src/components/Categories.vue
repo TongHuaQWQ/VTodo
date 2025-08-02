@@ -42,7 +42,7 @@ async function loadCategories(): Promise<string[]> {
       <li>
         <h2 class="menu-title flex justify-between">
           分类
-          <button class="btn btn-xs btn-square">+</button>
+          <!-- <button class="btn btn-xs btn-square">+</button> -->
         </h2>
         <!-- <div class="grid grid-cols-5 gap-0">
                     <input type="text" placeholder="名称" class="input !input-ms col-span-4 !rounded-r-none" />

@@ -1,5 +1,25 @@
-# Vue 3 + TypeScript + Vite
+# Vtodo
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+未完善的 TODO
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 功能
+
+在开发
+
+- [ ] 任务
+  - [x] 信息展示
+  
+  - [ ] 编辑功能
+- [ ] 展示
+  - [x] 任务进度
+  - [x] 欢迎
+- [ ] 分类
+  - [x] 添加
+  - [ ] 编辑功能
+
+未开始
+
+- [ ] 日历
+- [ ] 看板
+- [ ] 设置
+- [ ] 移动端适配

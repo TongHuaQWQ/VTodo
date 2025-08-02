@@ -1,11 +1,5 @@
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
+<template></template>
 
-<template>
-  啊啊啊
-</template>
-
-<style scoped>
-
-</style>
+<style scoped></style>

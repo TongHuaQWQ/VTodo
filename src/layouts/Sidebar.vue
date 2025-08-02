@@ -13,7 +13,7 @@ const addTaskModal = ref();
     <MainMenu />
     <div class="flex-1 overflow-y-auto mt-4">
       <button
-        class="btn btn-block btn-neutral mb-4 mx-3"
+        class="btn btn-block btn-neutral mb-4"
         @click="addTaskModal.openModal()"
       >
         添加任务
