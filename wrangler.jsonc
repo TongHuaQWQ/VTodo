@@ -1,11 +1,5 @@
 {
-  "name": "VTodo",
+  "name": "vtodo",
   "compatibility_date": "2025-08-03",
-  "pages_build_output_dir": "dist",
-    "routes": [
-    {
-      "include": "/*",
-      "exclude": ["/_app/*", "/api/*"]
-    }
-  ]
+  "pages_build_output_dir": "dist"
 }
